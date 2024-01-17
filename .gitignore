@@ -1,6 +1,4 @@
 node_modules/
 .npm/
 .env
-docker-compose.yml
-Dockerfile
 .DS_Store
