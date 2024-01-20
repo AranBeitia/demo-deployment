@@ -20,5 +20,5 @@ services:
       - 27018:27018
     environment:
       MONGO_INITDB_ROOT_USERNAME: arantzafrontend
-      MONGO_INITDB_ROOT_PASSWORD: K5u4vm8g37JeGjnN
-      MONGO_INITDB_DATABASE: ecommerce
+      MONGO_INITDB_ROOT_PASSWORD: Z5j9mgETSaY0iFM
+      MONGO_INITDB_DATABASE: testMongo
