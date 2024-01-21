@@ -12,7 +12,7 @@ services:
       disable: true
     restart: unless-stopped
     ports:
-      - 3001:3001
+      - 8080:8080
     tty: true
   mongotest:
     image: mongo:latest
@@ -20,5 +20,5 @@ services:
       - 27018:27018
     environment:
       MONGO_INITDB_ROOT_USERNAME: arantzafrontend
-      MONGO_INITDB_ROOT_PASSWORD: Z5j9mgETSaY0iFM
+      MONGO_INITDB_ROOT_PASSWORD: Z5j9mgETSaY0iFM4
       MONGO_INITDB_DATABASE: testMongo
